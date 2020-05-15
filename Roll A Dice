@@ -1,0 +1,7 @@
+# dice
+
+import random
+
+d=random.randint(1,6)
+
+print(d)
