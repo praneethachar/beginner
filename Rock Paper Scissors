@@ -1,0 +1,58 @@
+#ROCK PAPER SESSORS
+
+while True:
+    
+    choice=input("choose r,p or s : ")
+    if choice=="r": 
+        ply=1
+        print("you choose ROCK")
+        break
+    elif choice=="p":
+        ply=2
+        print("you choose PAPER")
+        break
+    elif choice=="s":
+        ply=3
+        print("you chose SESSORS")
+        break
+    else : 
+        print('error, enter r,p,or s')
+
+    
+
+    
+import random
+comp=random.randint(1,3)
+r=comp+ply
+
+if comp==1:
+        print("computer choose ROCK")
+        if r==4:
+            print("you loose")
+        elif r==3:
+            print("you win")
+        elif r==2:
+            print('draw')
+            
+            
+elif comp==2:
+        print("computer choose PAPER")
+        if r==5:
+            print("you win")
+        elif r==3:
+            print("you loose")
+        elif r==4:
+            print('draw') 
+            
+            
+elif comp==3:
+        print("computer choose SESSORS")
+        if r==5:
+            print("you loose")
+        elif r==4:
+            print("you win")
+        elif r==6:
+            print('draw')    
+
+
+            
