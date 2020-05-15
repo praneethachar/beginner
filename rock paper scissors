@@ -1,18 +1,24 @@
 #my own ROCK PAPER SESSORS
 
+while True:
+    
+    choice=input("choose r,p or s : ")
+    if choice=="r": 
+        ply=1
+        print("you choose ROCK")
+        break
+    elif choice=="p":
+        ply=2
+        print("you choose PAPER")
+        break
+    elif choice=="s":
+        ply=3
+        print("you chose SESSORS")
+        break
+    else : 
+        print('error, enter r,p,or s')
 
-choice=input("choose r,p or s : ")
-if choice=="r": 
-    ply=1
-    print("you choose ROCK")
-elif choice=="p":
-    ply=2
-    print("you choose PAPER")
-elif choice=="s":
-    ply=3
-    print("you chose SESSORS")
-else : 
-    print('error, enter r,p,or s')
+    
 
     
 import random
